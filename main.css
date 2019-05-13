@@ -1,0 +1,73 @@
+
+.hidden {
+  opacity: 0;
+}
+
+#div1 {
+  background-color: grey;
+  padding-left: 15%;
+
+}
+
+section div img {
+  background-color: grey;
+  display: grid;
+  grid-column: 50% 50%;
+
+}
+
+#div5 {
+  background-color: grey;
+  display: grid;
+  grid-column: 50px 70px;
+}
+
+#div2 {
+  background-color: red;
+  text-align: center;
+}
+
+section div {
+  background-color: red;
+}
+
+.part1 {
+
+  background-color: yellow;
+  text-align:center;
+}
+
+#div3 {
+
+  background-color: orange;
+  padding-left: 15%;
+}
+
+section div {
+  border-color: orange;
+  text-align: center;
+
+}
+#div4 {
+
+  background-color: brown;
+}
+
+section div{
+  background-color: brown;
+}
+#section1 {
+  background-color: grey;
+}
+
+
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.show {
+  animation-name: fadeIn;
+  animation-duration: 600ms;
+}
